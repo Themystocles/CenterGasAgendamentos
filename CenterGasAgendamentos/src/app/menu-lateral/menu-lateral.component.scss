@@ -1,0 +1,44 @@
+/* Estilos para o menu lateral */
+.menu {
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    width: 200px;
+    height: 100%;
+    background-color: #363636;
+}
+
+/* Estilos para o conteúdo principal */
+.content {
+    margin-left: 200px;
+    /* A largura do menu lateral */
+    padding: 20px;
+}
+
+/* Estilos para tornar o menu responsivo em telas menores */
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+.menu {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    height: calc(100% - 100px);
+
+
+}
+
+#whitecolor {
+    color: white;
+}
